@@ -1,0 +1,24 @@
+#learn-more-container {
+  width: 114px;
+  margin-top: 20px;
+}
+
+#learn-more-container .learn-more {
+  color: #a06056;
+  font-family: "Varta", sans-serif;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #learn-more-container {
+    width: 114px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  #learn-more-container .learn-more {
+    color: #a06056;
+    font-family: "Varta", sans-serif;
+    font-weight: bold;
+  }
+}

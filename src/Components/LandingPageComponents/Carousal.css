@@ -1,0 +1,125 @@
+#carousal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#carousal .carousel-container {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+}
+
+#carousal .carousel-images {
+  display: flex;
+  transition: transform 0.5s ease;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap;
+}
+
+#carousal .carousel-images img {
+  margin: 0 10px;
+  flex: 0 0 auto; /* This ensures each image takes up equal space */
+}
+
+#carousal .inspiration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 98vh;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#carousal .inspiration-container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
+}
+
+#carousal .inspiration {
+  font-size: 2.813rem;
+  color: rgba(83, 75, 66, 1);
+}
+
+#carousal .paragragh {
+  width: 359px;
+  height: 125px;
+  font-size: 1.125rem;
+  color: rgba(112, 100, 88, 1);
+}
+
+#carousal .left-arrow {
+  margin-right: 5px;
+}
+
+#carousal .right-arrow {
+  margin-left: 5px;
+}
+
+#carousal .off-each {
+  color: rgba(112, 100, 88, 0.9);
+  font-size: 1.125rem;
+  font-family: "Varta", sans-serif;
+  margin-top: 20px;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .carousal-pos {
+    padding: 10%;
+  }
+
+  #carousal {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #carousal .hidden {
+    display: none;
+  }
+
+  #carousal .inspiration-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+    width: 91%;
+  }
+
+  #carousal .inspiration {
+    font-size: 2.188rem;
+    color: rgba(83, 75, 66, 1);
+    position: relative;
+    left: -91px;
+  }
+
+  #carousal .inspiration-container-row {
+    width: auto;
+  }
+
+  #carousal .inspiration-container {
+    width: 100%;
+    margin: auto;
+  }
+
+  #carousal .paragragh {
+    width: 100%;
+    max-width: 359px;
+    margin-top: 20px;
+  }
+
+  #carousal .carousel-images img {
+    max-width: 100%; /* Adjusted for responsive images */
+  }
+
+  #carousal .carousel-images {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
