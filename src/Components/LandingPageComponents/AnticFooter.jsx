@@ -1,7 +1,7 @@
 import React from "react";
 import "./AnticFooter.css";
 import planetImage from "../../assets/img.png";
-import LearnMoreButtun from "./LearnMoreButtun";
+import LearnMoreButtun from "./LearnMoreButton";
 import facebook from "../../assets/facebook.svg";
 import instagram from "../../assets/Instagram.svg";
 import linkedin from "../../assets/Linkedin.svg";

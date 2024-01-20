@@ -1,6 +1,6 @@
 import React from "react";
 import "./Subscribe.css";
-import LearnMoreButtun from "./LearnMoreButtun";
+import LearnMoreButtun from "./LearnMoreButton";
 
 const Subscribe = () => {
   return (
