@@ -1,0 +1,38 @@
+/* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+  top: 6%;
+  width: 60%;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 34px;
+  font-family: "Varta", sans-serif;
+  color: rgba(160, 96, 86, 1);
+}
+
+.nav-link {
+  margin-right: 10px;
+  color: rgba(112, 100, 88, 1);
+}
+
+.icon {
+  font-size: 20px; /* Adjust as needed for your icon */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}

@@ -1,0 +1,115 @@
+#product-subscribe {
+  height: 120px;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#product-subscribe .left-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#product-subscribe .title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.75rem;
+  font-family: "Varta", sans-serif;
+  font-weight: bold;
+}
+
+#product-subscribe .subtitle {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.25rem;
+  font-family: "Varta", sans-serif;
+}
+
+#product-subscribe .right-container {
+  display: flex;
+  flex-direction: row;
+  width: 31%;
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#product-subscribe .input {
+  background-color: rgba(255, 255, 255, 1);
+  width: 64% !important;
+  border-radius: 1px;
+  height: 34px;
+  border: transparent;
+}
+
+#product-subscribe .btn {
+  background-color: rgba(231, 60, 23, 1);
+  color: rgba(255, 255, 255, 1);
+  width: 40%;
+  height: 100%;
+  border: transparent;
+  margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #product-subscribe {
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #product-subscribe .left-container {
+    display: flex;
+    width: 81%;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  #product-subscribe .title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.125rem;
+    font-family: "Varta", sans-serif;
+    font-weight: bold;
+  }
+
+  #product-subscribe .subtitle {
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.875rem;
+    font-family: "Varta", sans-serif;
+  }
+
+  #product-subscribe .right-container {
+    display: flex;
+    flex-direction: row;
+    width: 81%;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  #product-subscribe .input {
+    background-color: rgba(255, 255, 255, 1);
+    width: 84% !important;
+    border-radius: 1px;
+    height: 34px;
+    border: transparent;
+  }
+
+  #product-subscribe .btn {
+    background-color: rgba(231, 60, 23, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 80%;
+    height: 100%;
+    border: transparent;
+    margin: 0;
+  }
+}
