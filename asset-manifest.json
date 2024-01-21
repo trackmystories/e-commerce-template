@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/e-commerce-template/static/css/main.2c9284c3.css",
+    "main.js": "/e-commerce-template/static/js/main.249d12aa.js",
+    "static/js/787.04de428c.chunk.js": "/e-commerce-template/static/js/787.04de428c.chunk.js",
+    "static/media/main-img.png": "/e-commerce-template/static/media/main-img.55f583a4ad6f072d760e.png",
+    "static/media/img.png": "/e-commerce-template/static/media/img.d3722b1d74e87c327374.png",
+    "static/media/5.png": "/e-commerce-template/static/media/5.6eb397bf564498f1a5ae.png",
+    "static/media/tv5.png": "/e-commerce-template/static/media/tv5.507dd921e52fb18d29c5.png",
+    "static/media/1.png": "/e-commerce-template/static/media/1.740ce27fb528792e2ef5.png",
+    "static/media/3.png": "/e-commerce-template/static/media/3.6eb4c1bf9d7eedd07847.png",
+    "static/media/6.png": "/e-commerce-template/static/media/6.db01c2ff4c26e14908fc.png",
+    "static/media/2.png": "/e-commerce-template/static/media/2.5f2fe9d2fde1a2fe565c.png",
+    "static/media/4.png": "/e-commerce-template/static/media/4.3ce70a83046a369981ec.png",
+    "static/media/img1.png": "/e-commerce-template/static/media/img1.1eb576d6f2a9c60843a9.png",
+    "static/media/img5.png": "/e-commerce-template/static/media/img5.097dfb7fe15268d95752.png",
+    "static/media/img6.png": "/e-commerce-template/static/media/img6.803b0357ba152d7c9d00.png",
+    "static/media/tv1.png": "/e-commerce-template/static/media/tv1.ff9d98af117014f12fae.png",
+    "static/media/chat.svg": "/e-commerce-template/static/media/chat.e7562a8c035d4d5f13eb0d98d566e6a2.svg",
+    "static/media/Twitter.svg": "/e-commerce-template/static/media/Twitter.51453dca5c53440e0e3388a539b32dc9.svg",
+    "index.html": "/e-commerce-template/index.html",
+    "static/media/Linkedin.svg": "/e-commerce-template/static/media/Linkedin.323ac3a627727f5bea23f11d1020583c.svg",
+    "static/media/Instagram.svg": "/e-commerce-template/static/media/Instagram.65fc92fa6bfed4686cce903bebacb798.svg",
+    "static/media/right-arrow.svg": "/e-commerce-template/static/media/right-arrow.ddacce3e3a2fe6fcadd0477bf432114d.svg",
+    "static/media/left-arrow.svg": "/e-commerce-template/static/media/left-arrow.3c33276d5d038d07bc0448d6ec0dd232.svg",
+    "static/media/arrow-down.svg": "/e-commerce-template/static/media/arrow-down.00d981258e58745208bbc5f11029fac1.svg",
+    "static/media/facebook.svg": "/e-commerce-template/static/media/facebook.ecbad246fdf91fb586b2aa2dacb84362.svg",
+    "main.2c9284c3.css.map": "/e-commerce-template/static/css/main.2c9284c3.css.map",
+    "main.249d12aa.js.map": "/e-commerce-template/static/js/main.249d12aa.js.map",
+    "787.04de428c.chunk.js.map": "/e-commerce-template/static/js/787.04de428c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c9284c3.css",
+    "static/js/main.249d12aa.js"
+  ]
+}
