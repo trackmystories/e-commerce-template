@@ -19,7 +19,6 @@ const Carousal = () => {
 
   const images = [image1, image2, image3, image4, image5, image6];
 
-  // Adjust currentIndex on button press
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
       newIndex = images.length - 1;
