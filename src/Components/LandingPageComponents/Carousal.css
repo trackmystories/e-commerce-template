@@ -13,13 +13,13 @@
 #carousal .carousel-images {
   display: flex;
   transition: transform 0.5s ease;
-  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-x: auto;
   white-space: nowrap;
 }
 
 #carousal .carousel-images img {
   margin: 0 10px;
-  flex: 0 0 auto; /* This ensures each image takes up equal space */
+  flex: 0 0 auto;
 }
 
 #carousal .inspiration-container {
@@ -115,7 +115,7 @@
   }
 
   #carousal .carousel-images img {
-    max-width: 100%; /* Adjusted for responsive images */
+    max-width: 100%;
   }
 
   #carousal .carousel-images {
