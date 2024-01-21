@@ -80,8 +80,7 @@
 
 @media (max-width: 768px) {
   #needus-footer-container {
-    padding: 48px 32px 48px 32px;
-    gap: 40px;
+    width: 100%;
   }
 
   #needus-footer-container .inner-container {
