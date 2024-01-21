@@ -4,6 +4,7 @@
   background-color: rgba(47, 51, 58, 1);
   justify-content: center;
   align-items: center;
+  padding: 100px;
 }
 
 #needus-footer-container .inner-container {
@@ -100,13 +101,13 @@
   }
 
   #needus-footer-container .inner-container-col > p {
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.1rem;
+    display: none;
   }
 
   #needus-footer-container .title {
     color: rgba(255, 255, 255, 1);
     font-size: 1.5rem;
+    text-decoration: underline;
   }
 
   #needus-footer-container .our-planet-img-container {

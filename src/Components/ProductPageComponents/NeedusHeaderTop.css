@@ -1,0 +1,22 @@
+#needus-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: rgba(47, 51, 58, 1);
+}
+
+#needus-header .wel-text {
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #fff;
+  font-family: "Varta", sans-serif;
+}
+
+@media (max-width: 768px) {
+  #needus-header .needus-header-1 {
+    display: none;
+  }
+}

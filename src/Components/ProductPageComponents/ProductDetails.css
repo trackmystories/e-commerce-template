@@ -19,15 +19,33 @@
   font-weight: bold;
   font-size: 32px;
   font-family: "Varta", sans-serif;
-  line-height: 21.78px;
+
+  margin-top: 25px;
 }
 
 #product-details .features-list {
   font-weight: bold;
-  font-size: 1px;
+  font-size: 11px;
   font-family: "Varta", sans-serif;
-  line-height: 21.78px;
+  margin-top: 15px;
+}
+
+#property-details .rating {
+  display: flex;
+  margin-top: 25px;
 }
 
 @media (max-width: 768px) {
+  #product-details .title-long {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Varta", sans-serif;
+    margin-top: 25px;
+  }
+
+  .star {
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+  }
 }
