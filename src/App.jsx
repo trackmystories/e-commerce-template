@@ -25,7 +25,7 @@ function App() {
       <div className="app-container">
         <NavigateButtons />
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/landingpage" element={<LandingPage />} />
           <Route path="/products" element={<ProductPage />} />
         </Routes>
       </div>
