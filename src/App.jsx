@@ -13,7 +13,9 @@ const NavigateButtons = () => {
 
   return (
     <div>
-      <button onClick={() => navigate("/")}>Go to Landing Page</button>
+      <button onClick={() => navigate("/landingpage")}>
+        Go to Landing Page
+      </button>
       <button onClick={() => navigate("/products")}>Go to Product Page</button>
     </div>
   );
