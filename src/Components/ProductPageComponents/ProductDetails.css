@@ -1,0 +1,33 @@
+#product-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#product-details .property {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Varta", sans-serif;
+  line-height: 21.78px;
+}
+
+#product-details .value {
+  font-weight: normal;
+}
+
+#product-details .title-long {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Varta", sans-serif;
+  line-height: 21.78px;
+}
+
+#product-details .features-list {
+  font-weight: bold;
+  font-size: 1px;
+  font-family: "Varta", sans-serif;
+  line-height: 21.78px;
+}
+
+@media (max-width: 768px) {
+}

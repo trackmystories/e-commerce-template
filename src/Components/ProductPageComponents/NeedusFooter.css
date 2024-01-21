@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   background-color: rgba(47, 51, 58, 1);
-  padding: 70px 150px 64px 150px;
   justify-content: center;
   align-items: center;
 }
@@ -10,7 +9,6 @@
 #needus-footer-container .inner-container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
 #needus-footer-container .inner-container-col {

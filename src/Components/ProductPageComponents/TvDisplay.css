@@ -1,0 +1,75 @@
+#tv-display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+}
+
+#tv-display .vertical-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tv-display .img-container {
+  border: solid rgba(240, 240, 240, 1) 1px;
+  margin: 10px;
+}
+
+#tv-display .vertical-images img {
+  margin-bottom: 10px;
+  width: 100px;
+  height: auto;
+}
+
+#tv-display .large-image {
+  background-color: rgba(241, 241, 241, 1);
+  height: 403px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tv-display .large-image img {
+  width: 420px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #tv-display {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #tv-display .vertical-images {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #tv-display .img-container {
+    margin: 5px;
+  }
+
+  #tv-display .large-image {
+    background-color: transparent;
+  }
+
+  #tv-display .large-image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  #tv-display .vertical-images img {
+    width: 80px;
+    height: auto;
+  }
+
+  #tv-display .vertical-images .img-container:last-child {
+    display: none;
+  }
+}
